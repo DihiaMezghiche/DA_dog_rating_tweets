@@ -46,34 +46,34 @@ and retweet count
 Most of the efforts that I made during the project are here where I had to solve every single one of the issues that I have detected:
 
 **Issue 1:** timestamp attribute is of type string
-    Solution: convert the type using to_datetime function.
+* Solution: convert the type using to_datetime function.
     
 **Issue 2:** Some tweets are retweets
-    Solution: Delete the tweets using the drop function
+* Solution: Delete the tweets using the drop function
     
 **Issue 3:** rating_denominator above and under 10
-    Solution: Retrieve the id of the the tweets and delete.
+* Solution: Retrieve the id of the the tweets and delete.
     
 **Issue 4:** Wrong values in the name column
-    Solution: Replace the wrong name by none.
+* Solution: Replace the wrong name by none.
     
 **Issue 5:** Missing values in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id
-    Solution: Fill the NaN values with zero.
+* Solution: Fill the NaN values with zero.
     
 **Issue 6:** in_reply_to_status_id and in_reply_to_user_id type float instead of int.
-    Solution: Convert using astype()
+* Solution: Convert using astype()
     
 **Issue 7:** each type of dog is a column
-    Solution: Concat 4 columns
+* Solution: Concat 4 columns
 
 **Issue 8:** duplicated images of dogs that have been rated
-    Solution: Drop duplicates
+* Solution: Drop duplicates
     
 **Issue 9:** 3 datasets
-    Solution: Merge the three datasets
+* Solution: Merge the three datasets
     
 **Issue 10:** Rename columns
-    Solution: Rename columns to have significate names
+* Solution: Rename columns to have significate names
     
  ## My Findings
  For the analysis of this dataset, I asked myself the following questions:
