@@ -43,7 +43,7 @@ I tried to use the tweeter api as asked but not having a response from tweeter c
 and retweet count
  
   ## Data Wrangling
-  Most of the efforts that I made during the project are here where I had to solve every single one of the issues that I have detected:
+Most of the efforts that I made during the project are here where I had to solve every single one of the issues that I have detected:
 **Issue 1:** timestamp attribute is of type string
     Solution: convert the type using to_datetime function.
 **Issue 2:** Some tweets are retweets
